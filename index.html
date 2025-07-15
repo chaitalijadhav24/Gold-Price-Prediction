@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Price Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <div class="logo"></div>
+            <img src="GOLDZGAZE.png" alt="LOGO" height="50" width="50">
+            </div>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="http://127.0.0.1:5500/signup.html">Signup</a></li>
+            <li><a href="login.php">Login</a></li>
+            <li><a href="goldprice.html">Gold Price</a></li>
+            <li><a href="CurrentGoldPrice.html">Prediction</a></li>
+            </ul>
+        </nav>
+        <style>
+            nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            }
+            nav .logo img {
+            height: 50px;
+            }
+            nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            }
+            nav ul li {
+            margin-left: 20px;
+            }
+            nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+            }
+            nav ul li a:hover {
+            color: #ffcc00;
+            }
+        </style>
+    </header>
+    <main>
+        <div class="text-box" style="background-color: #f0f0f0; width: 80%;">
+            <h2>Welcome to Gold Price Prediction</h2>
+            <p>Predict the future prices of gold with our advanced algorithms.</p>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">
+            <img src="current_gold_price.jpg" alt="Current Gold Price" style="display: block; margin: 0 auto;">
+            <h3>Current Gold Price</h3>
+            <p>The current price of gold is $1800 per ounce.</p>
+            </div>
+            <div class="grid-item">
+            <img src="market_trends.jpg" alt="Market Trends" style="display: block; margin: 0 auto;">
+            <h3>Market Trends</h3>
+            <p>Gold prices have been on a steady rise due to increasing demand and economic uncertainties.</p>
+            </div>
+            <div class="grid-item">
+            <img src="global_demand.jpg" alt="Global Demand" style="display: block; margin: 0 auto;">
+            <h3>Global Demand</h3>
+            <p>Gold is highly sought after in countries like India and China, where it is used for jewelry and investment purposes.</p>
+            </div>
+            <div class="grid-item">
+            <img src="supply_constraints.jpg" alt="Supply Constraints" style="display: block; margin: 0 auto;">
+            <h3>Supply Constraints</h3>
+            <p>Gold mining activities and geopolitical tensions can affect the supply of gold, impacting its price.</p>
+            </div>
+            <div class="grid-item">
+            <img src="factors_affecting_prices.jpg" alt="Factors Affecting Gold Prices" style="display: block; margin: 0 auto;">
+            <h3>Factors Affecting Gold Prices</h3>
+            <p>Gold prices are influenced by various factors including inflation, interest rates, and geopolitical events. Understanding these factors can help investors make informed decisions and better predict future price movements.</p>
+            
+            <p>Interest Rates: Lower interest rates make gold more attractive compared to interest-bearing assets.</p>
+            
+            <p>Currency Fluctuations: A weaker US dollar makes gold cheaper for foreign investors, increasing demand.</p>
+            <p>Central Bank Policies: Central banks' decisions to buy or sell gold reserves can significantly impact prices.</p>
+            
+            </div>
+            <div class="grid-item">
+            <img src="investment_tips.jpg" alt="Investment Tips" style="display: block; margin: 0 auto;">
+            <h3>Investment Tips</h3>
+            <p>Investing in gold can be a good hedge against inflation. It's important to diversify your portfolio and consult with a financial advisor. Consider both physical gold and gold-related financial products such as ETFs and mining stocks to balance risk and potential returns.</p>
+            </div>
+            <div class="grid-item">
+            <img src="historical_data.jpg" alt="Historical Data" style="display: block; margin: 0 auto;">
+            <h3>Historical Data</h3>
+            <p>Gold prices have fluctuated over the years, reaching a peak of $2000 per ounce in 2020.</p>
+            <p>In the past decade, gold prices have seen significant volatility, influenced by global economic events and market sentiment.</p>
+            <p>For instance, during the 2008 financial crisis, gold prices surged as investors sought safe-haven assets.</p>
+            <p>In 2011, gold prices hit a record high of $1900 per ounce due to economic uncertainties and high inflation rates.</p>
+            <p>More recently, the COVID-19 pandemic in 2020 led to another surge in gold prices as investors looked for stability amidst market turmoil.</p>
+            </div>
+            <div class="grid-item">
+            <img src="future_predictions.jpg" alt="Future Predictions" style="display: block; margin: 0 auto;">
+            <h3>Future Predictions</h3>
+            <p>Our algorithms predict that gold prices will continue to rise over the next few years.</p>
+            <p>Based on historical data and current market trends, we expect gold prices to reach $2000 per ounce by the end of next year.</p>
+            <p>Factors such as inflation, geopolitical tensions, and economic uncertainties will play a significant role in driving gold prices higher.</p>
+            <p>Investors are advised to keep an eye on global economic indicators and market sentiment to make informed decisions.</p>
+            <p>Our advanced predictive models take into account various factors to provide accurate and reliable forecasts for gold prices.</p>
+            </div>
+        </div>
+        <style>
+            .grid-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            }
+            .grid-item {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            }
+            .grid-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+            .grid-item h3 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+            }
+            .grid-item p {
+            font-size: 1em;
+            color: #666;
+            line-height: 1.6;
+            }
+        </style>
+        <style>
+            .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            }
+            .grid-item {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            }
+            .grid-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+            .grid-item h3 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+            }
+            .grid-item p {
+            font-size: 1em;
+            color: #666;
+            line-height: 1.6;
+            }
+        </style>
+        <style>
+            .text-box {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 700px;
+            margin: 40px auto;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            }
+            .text-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+            .text-box h2 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+            }
+            .text-box p {
+            font-size: 1.2em;
+            color: #666;
+            line-height: 1.6;
+            }
+        </style>
+        </style>
+        <style>
+            body {
+            background-image: url('bg.gif');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            animation: slideBackground 30s linear infinite;
+            filter: brightness(0.8);
+            }
+
+            @keyframes slideBackground {
+            0% {
+            background-position: center top;
+            }
+            50% {
+            background-position: center bottom;
+            }
+            100% {
+            background-position: center top;
+            }
+            }
+        </style>
+        
+    </main>
+</body>
+</html>
